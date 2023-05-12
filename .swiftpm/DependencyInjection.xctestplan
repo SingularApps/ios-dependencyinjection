@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "9DB3D8A6-3BF2-48D6-853B-F5B53803FCB7",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "DependencyInjection",
+          "name" : "DependencyInjection"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "DependencyInjectionTests",
+        "name" : "DependencyInjectionTests"
+      }
+    }
+  ],
+  "version" : 1
+}
